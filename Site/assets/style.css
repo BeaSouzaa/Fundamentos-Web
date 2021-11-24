@@ -1,0 +1,79 @@
+/*Estilo do index.html*/
+
+body{
+    background-image: linear-gradient(45deg, rgb(250, 87, 223),rgb(80, 131, 241));
+}
+
+#titulo{
+color: rgb(63, 12, 122);
+font-family: 'Caveat', cursive, sans-serif;
+font-size: 30px;
+
+}
+
+
+#menu li {
+    flex-flow:row;
+    justify-content: space-between;
+    display:inline;
+    padding: 20px;
+}
+#menu li a {
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    
+    color:red;
+
+
+}
+
+.container{
+    font-family: 'Karla',cursive, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align:justify;
+}
+
+h2 {
+    color: rgb(63, 12, 122);
+    font-family: 'Caveat', cursive, sans-serif;
+    font-size: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+ 
+p{
+    font-size: 18px;
+
+}
+
+.center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align:justify;
+    font-size: smaller;
+
+
+
+}
+
+
+.whimgmario {
+
+    width: 600px;
+    height: 400px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+/*Estilo do contato.html*/
+
